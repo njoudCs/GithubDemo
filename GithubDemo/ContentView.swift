@@ -7,17 +7,25 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, all pp")
-        }
-        .padding()
+    @Environment(\.colorScheme) var colorScheme
+
+   var body: some View {
+//        Text(colorScheme == .light ? "Light mode" : "Dark mode" )
+        
+        if(colorScheme == .dark) {
+                    Text("ITS DARK")
+                } else if(colorScheme == .light) {
+                    Text("ITS LIGHT")
+                }
+        
+        // if yes it's dark print (Light mode) else print (Dark mode)
     }
+
+
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

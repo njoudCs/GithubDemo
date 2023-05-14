@@ -14,7 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A9C97E9829FFE47F003A0A3E /* GithubDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9C97E9829FFE47F003A0A3E /* Micro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Micro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9C97E9B29FFE47F003A0A3E /* GithubDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubDemoApp.swift; sourceTree = "<group>"; };
 		A9C97E9D29FFE47F003A0A3E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A9C97E9F29FFE480003A0A3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		A9C97E9929FFE47F003A0A3E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A9C97E9829FFE47F003A0A3E /* GithubDemo.app */,
+				A9C97E9829FFE47F003A0A3E /* Micro.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A9C97E9729FFE47F003A0A3E /* GithubDemo */ = {
+		A9C97E9729FFE47F003A0A3E /* Micro */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A9C97EA629FFE480003A0A3E /* Build configuration list for PBXNativeTarget "GithubDemo" */;
+			buildConfigurationList = A9C97EA629FFE480003A0A3E /* Build configuration list for PBXNativeTarget "Micro" */;
 			buildPhases = (
 				A9C97E9429FFE47F003A0A3E /* Sources */,
 				A9C97E9529FFE47F003A0A3E /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = GithubDemo;
+			name = Micro;
 			productName = GithubDemo;
-			productReference = A9C97E9829FFE47F003A0A3E /* GithubDemo.app */;
+			productReference = A9C97E9829FFE47F003A0A3E /* Micro.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A9C97E9329FFE47F003A0A3E /* Build configuration list for PBXProject "GithubDemo" */;
+			buildConfigurationList = A9C97E9329FFE47F003A0A3E /* Build configuration list for PBXProject "Micro" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A9C97E9729FFE47F003A0A3E /* GithubDemo */,
+				A9C97E9729FFE47F003A0A3E /* Micro */,
 			);
 		};
 /* End PBXProject section */
@@ -320,7 +320,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A9C97E9329FFE47F003A0A3E /* Build configuration list for PBXProject "GithubDemo" */ = {
+		A9C97E9329FFE47F003A0A3E /* Build configuration list for PBXProject "Micro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A9C97EA429FFE480003A0A3E /* Debug */,
@@ -329,7 +329,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A9C97EA629FFE480003A0A3E /* Build configuration list for PBXNativeTarget "GithubDemo" */ = {
+		A9C97EA629FFE480003A0A3E /* Build configuration list for PBXNativeTarget "Micro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A9C97EA729FFE480003A0A3E /* Debug */,
